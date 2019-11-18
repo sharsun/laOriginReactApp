@@ -9,7 +9,7 @@
     "react-scripts": "3.1.2"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode production",
+    "start": "webpack-dev-server --mode development",
     "start-dev": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --mode development\""
    
   },

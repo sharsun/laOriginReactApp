@@ -5,7 +5,10 @@ const plugin = new MiniCssExtractPlugin({
   });
 module.exports = {
     devtool: "source-map",
-
+    devServer:{
+      port:process.env.PORT || 8080,
+    }
+,
     module: {
         rules: [
             {

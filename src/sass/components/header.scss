@@ -1,0 +1,18 @@
+
+.navbar{
+   
+    overflow: hidden;
+    .navbarleft{
+        float:left;
+    }
+    .navbarright{
+        float:right;
+        padding:1.8rem 0;
+        ul{
+            li{
+                display:inline;
+                padding-left:1rem;
+            }
+        }
+    }
+}

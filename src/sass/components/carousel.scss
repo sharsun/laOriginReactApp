@@ -1,0 +1,59 @@
+@import '../abstract/variables.scss';
+
+.ItemCarousel{
+    &__chevron {
+        width:2.5rem;
+
+        img{
+            width:2.5rem;
+           
+        }
+    }
+}
+
+.ItemCarouselCard{
+    width:100%;
+
+    text-align: center;
+    position:relative;
+
+    &__desc{
+        position:relative;
+        z-index: 1;
+        bottom:10rem;
+        background-color:$color-white;
+        width:90%;
+        left:5%;
+        padding:2rem;
+        box-shadow:0 2px 4px 0 rgba(0,0,0,.1);
+
+    }
+
+    &__text{
+        padding:20px;
+        font-size:14px;
+        height:6rem;
+    }
+
+    &__img{
+        width:100%;
+        height:100%;
+      
+    }
+
+    &__img2{
+        width:4rem;
+ 
+    }
+
+    &__imagecropper{
+        border-radius: 50%;
+        overflow: hidden;
+        display: inline-block;
+        width: 4rem;
+        height: 4rem;
+    }
+    
+
+   
+}

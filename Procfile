@@ -1,1 +1,1 @@
-web:./node_modules/webpack-dev-server/bin/webpack-dev-server --mode production
+web:./node_modules/webpack-dev-server/bin/webpack-dev-server --mode development

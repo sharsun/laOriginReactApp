@@ -5,7 +5,14 @@ const plugin = new MiniCssExtractPlugin({
   });
 module.exports = {
     devtool: "source-map",
-  
+    entry: [
+      './src/index.js'
+    ],
+    output: {
+      path: __dirname,
+      publicPath: '/',
+      filename: 'bundle.js'
+    },
     module: {
         rules: [
             {

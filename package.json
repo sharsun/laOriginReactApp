@@ -24,10 +24,8 @@
     "webpack-dev-server": "^3.9.0"
   },
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "prod": "NODE_ENV=production node server.js",
-    "postinstall": "webpack -p",
-    "start-dev": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --mode development\""
+    "start": "node server.js", 
+    "heroku-postbuild": "webpack -p" 
   },
   "eslintConfig": {
     "extends": "react-app"
